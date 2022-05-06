@@ -8,7 +8,7 @@ interface MuxConfig {
     // const host = 'http://localhost:8081'
     const host = 'https://mux-world.github.io/assets'
     const configs = new Map<string, string>([
-        ['token', 'src/config/assets/token.json'],
+        ['token', 'config/assets/token.json'],
     ])
 
     if (!config) {
