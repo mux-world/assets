@@ -1,0 +1,22 @@
+{
+  "name": "@mux/assets",
+  "version": "0.0.0",
+  "description": "Mux Asset",
+  "scripts": {
+    "build": "npm run build:config && npm run build:iconfont",
+    "build:iconfont": "gulp build",
+    "build:config": "tsc"
+  },
+  "keywords": [
+    "mux"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.1.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {}
+}
