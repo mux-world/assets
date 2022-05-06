@@ -13,28 +13,28 @@ function compileIconfont() {
             cascade: false
         }))
         .pipe(cssmin())
-        .pipe(dest('./lib/iconfont'));
+        .pipe(dest('./docs/iconfont'));
 }
 
 function copyIconfont() {
     return src('./iconfont/fonts/**')
         .pipe(cssmin())
-        .pipe(dest('./lib/iconfont/fonts'));
+        .pipe(dest('./docs/iconfont/fonts'));
 }
 
 function copyImages() {
     return src('./img/**')
-        .pipe(dest('./lib/img'));
+        .pipe(dest('./docs/img'));
 }
 
 function copyConfigAssets() {
     return src('./src/config/assets/**')
-        .pipe(dest('./lib/config/assets'));
+        .pipe(dest('./docs/config/assets'));
 }
 
 function copyConfig() {
     return src('./src/config/config.js')
-        .pipe(dest('./lib/config'));
+        .pipe(dest('./docs/config'));
 }
 
 exports.build = series(copyIconfont, compileIconfont, copyImages, copyConfig, copyConfigAssets);
