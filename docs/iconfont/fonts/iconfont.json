@@ -1,10 +1,24 @@
 {
   "id": "1385421",
-  "name": "mux-fe",
+  "name": "mcdex-fe",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "29498382",
+      "name": "Redeem",
+      "font_class": "redeem",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "29482409",
+      "name": "Wrong Network",
+      "font_class": "warning-circle",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
     {
       "icon_id": "29390093",
       "name": "Checkbox-Selected",

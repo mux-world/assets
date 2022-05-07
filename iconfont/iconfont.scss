@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 1385421 */
-  src: url('./fonts/iconfont.woff2?t=1651142498198') format('woff2'),
-       url('./fonts/iconfont.woff?t=1651142498198') format('woff'),
-       url('./fonts/iconfont.ttf?t=1651142498198') format('truetype');
+  src: url('./fonts/iconfont.woff2?t=1651915332143') format('woff2'),
+  url('./fonts/iconfont.woff?t=1651915332143') format('woff'),
+  url('./fonts/iconfont.ttf?t=1651915332143') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-redeem:before {
+  content: "\e6c3";
+}
+
+.icon-warning-circle:before {
+  content: "\e6c2";
 }
 
 .icon-checkbox-selected:before {
